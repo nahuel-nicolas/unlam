@@ -1,0 +1,11 @@
+-connect local git reposotory with an external reposotory
+git remote add origin <external repo url>
+-now the every git push origin will be directed by default to that external repo
+
+-To actually make changes and commit the commmit there to the external repo we must push
+git push -u origin <external branch name>
+-If we "git push -u origin master" being master a branch in out external repo and if we where in the branch "javascript" from our local repo then "javascript" 
+-will be set as the default branch for external repo "master" branch
+
+-delete a remote branch
+git push --delete <remote name> <branch name>

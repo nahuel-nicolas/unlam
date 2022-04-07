@@ -1,0 +1,218 @@
+318 => 347
+
+324
+n*Ai = 180º*(n-2)
+n*Ae = 360º
+n = 360º/Ae
+Ac = 360º/n
+Ai (regular poligon) = n*Ai/n
+Ae=Ac
+Ai+Ae=180
+n-(180º/Ai)*n=-360/Ai
+each side < sum of the others sides
+
+325
+pentagono con vertices A, B, C, D, E y centro O
+Del centro O al vertice radio (O => A, ej)
+Del centro O al centro de uno de los lados apotema
+area poligon = perimeterPoligon*apotema/2
+
+328
+escaleno: 3 differents
+
+329
+area triangle: (b*h)/2
+
+329=>332
+bicetriz, line that traverse an angle on its middle the angle in two equidistants angles.
+mediatriz, perpendicular line to the segment that traverse it on its middle point
+altura, line that is perpendicular to a segment and traverse its oposite vortex
+mediana, line that traverse the middle point of a segment and its oposite vortex
+
+incentro (bicetriz point) the intersection of the bicetrices of a triangle
+circuncentro (mediatriz point) the intersection of the mediatrices of a triangle
+ortocentro (alturas point) the intersection of the alturas of a triangle
+baricentro (medianas) the intersecton of the medianas of a triangle
+
+icob, bmam
+
+ortical triangle, the triangle that can be created with the ortocentro and the segments (intersections altura-segment)
+
+333
+h*2=a2+b*2 (we only get the positive result)
+h*2=(x1-x2)2+(y1-y2)*2
+
+337-339
+paralelogram-rectangle
+area: b*h
+perimeter: 2(b+h)
+
+rombo
+area: (diag1*diag2)/2
+perimeter: lado*4
+
+340
+square
+area: lado**2
+perimeter: lado*4
+
+trapecio
+area: (bigB+smallB)*h/2
+per: sum of sides
+
+342
+circle
+area: pi*r**2
+per: pi*2*r = pi*d
+
+349
+angle positive sense inverse the clock
+acording to the clock is negative
+
+354
+axial simetry
+a simetric image according to a recta
+I_ | _I
+/  |  \
+
+355
+We have 2 axis X and Y +
+We have 4 planes in this plane; I, II, III and IV
+If we move a point (-2; 3) from II to I we are only making use of Y axis.
+The result would be (2; 3) notice that when you use only Y axis it only changes the X value and viversa.
+
+If we move a point (2; 3) from I to III we are only making use of X axis
+The result would be (2; -3) notice that when you use only X axis it only changes the Y value and viversa.
+
+358
+central simetry. It's like moving angles in 349 but with grade 0. Central simetry is even an easier proces.
+
+362, 363
+Traslation
+You move a point or group of points but you are given with the segment that they are to be moved with. 
+You gotta get the segment distance and direction and then move the points.
+In order to get the segment information you should have an square rule and a rule, with the square take the dimensions of the segment and translate it from
+the segment to the point keeping the same segment direction. Once you reached the point, you create a new point where the difference from the new point and the old one
+is the segment.
+
+370
+we have a triangle with vertices A, B, C
+We got the sane triangle and we make a bigger one with a razon of 2, Its vertices are A', B' and C'
+These triangles are semejantes because their respective angles are the same and their sides keep the same proporcionality
+Meaning these: A'/A = B'/B = C'/C = 2
+r = 2
+ra = r**2
+rv = r**3
+
+371
+Escale
+If we have X' object of scale 1/100 means that X' is 100 times smaller than X
+E is the scale:
+x'=x*E
+
+E=x/x'
+x=x'/E
+
+y=Ex
+
+377-378
+2pi=360º
+pi=180º
+pi/2=90º
+
+how many radians are 60º?
+pi/180º=x/60º
+
+how many grades are pi/7 radians?
+180º/pi=(x)/(pi/7)
+
+378
+Angle types
+complementaries: a+b=90º
+suplementaries: a+b=180º
+adyacents: suplementaries and /
+
+381
+Long of an angle
+complete circle angle = 2pi  = O
+complete circle long  = 2pir = s
+2pi/2pi*r = O/s
+angle/long = O/s
+
+382
+main circle angle = 2pi     = O
+main circle area  = pi*r**2 = A
+
+2pi/pi*r**2 = O/A
+angle/area = O/a
+
+386
+sen=o/h cos=a/h tan=o/a
+cosecante = 1/sen 
+secante = 1/cos
+cotangente = 1/tag
+
+387
+sen*2+cos*2=1
+
+1/tg*2 + 1 = 1/sen*2
+tg*2   + 1 = 1/cos*2
+
+390
+/_ elevation angle
+
+\'' depresion angle
+
+395
+Sen, Cos and Tan in base
+
+    I  II  III  IV
+sen +  +   -    -
+cos +  -   -    +
+tan +  -   +    -
+
+Solving not only rectangle triangles rectangles
+399
+Seno theorem
+In a triangle all the sides are proportional to their oposite angles
+sena/A = senb/B = senc/C
+
+401
+Coseno theorem
+A*2 = B2+C*2-2*B*C*cosa
+cosa = (A*2-B2-C*2)/(-2*B*C)
+
+415
+prisma recto
+Al = Pb*h
+At = Al+2Ab
+V = Ab*h
+
+419
+Cubo
+At = 6*a**2 = 6*Ab
+V = a**3
+
+Pyramid
+Al = 1/2*Pb*Ap = 1/2*n*l*Ap
+At = Ab+Al = 1/2Pb*(Ap+apb)
+V = 1/3*Ab*h
+
+Cilinder
+Pb = 2*pi*r
+Al = 2*pi*r*h = Pb*h
+Ab = pi*r**2
+At = Al + 2*Ab = 2*pi*r*(h+r)
+V = Ab*h
+
+432
+Cono
+g*2=r2+h*2
+Al = pi*g*r
+Ab = pi*r**2
+At = Al + Ab
+V = 1/3*Ab*h
+
+Ball
+A=4*pi*r***2
+V=4/3*pi*r**3

@@ -1,0 +1,78 @@
+-Once in desired folder start new project
+git init
+
+-Create new project
+-Check git status
+git status
+
+-Add new file to be commited
+git add fileName.fileType or fileName.fileType fileName.fileType or add * or add *.fileType or add fileName.*
+
+-You can remove the added file
+git rm --cached fileName.fileType
+
+-?
+git add LICENSE
+
+-Make the commit and write a message about it
+git commit -m "Added fileName.fileType"
+
+-get the history of commits for current branch
+git log
+
+-When git log the structure of every commit is
+commit (commitHashName)
+Author: (authorName) <(authorEmail)>
+Date: (date)
+(commitMessage)
+
+-if you wanna go back to a certain commit of the same branch just
+git checkout (commitHashName)
+-When we git checkout we are basically leaving our currentBranch and going to another, if you wanna go back just...
+git checkout (previousBranch)
+-If you do not remember your previousBranch, it probably was master
+
+-If you wanna create a new branch from a certain checkout go to that checkout (it would be like the starting point of that new branch) and
+git branch branchName
+-That way you created a new branch
+
+-Check branches list
+git branch
+
+-If you wanna make a branch1 equal to branch2 by adding branch2 commits to branch1 then
+git branch branch1
+git merge branch2 -m "(merging message)"
+
+-remove last commit
+-https://stackoverflow.com/questions/1338728/delete-commits-from-a-branch-in-git
+git reset --hard HEAD~1
+-if you are in last commit, this will also remove work in progress from there
+
+-remove last commit from branch
+git push origin HEAD --force
+
+-another option
+git reset --hard <commit hash>
+
+git reset --hard HEAD~2 
+-to remove the last two commits
+
+-connect local git reposotory with an external reposotory
+git remote add origin <external repo url>
+-now the every git push origin will be directed by default to that external repo
+
+-To actually make changes and commit the commmit there to the external repo we must push
+git push -u origin <external branch name>
+-If we "git push -u origin master" being master a branch in out external repo and if we where in the branch "javascript" from our local repo then "javascript" 
+-will be set as the default branch for external repo "master" branch
+
+-to delete a branch: https://www.cloudbees.com/blog/git-delete-branch-how-to-for-both-local-and-remote
+-basic branch delete in local repo
+git branch -d <branch-name>
+
+-delete branch in local repo and its unmerged changes
+git branch -D <branch-name>
+
+-delete a remote branch
+git push --delete <remote name> <branch name>
+
